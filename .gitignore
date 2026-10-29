@@ -1,0 +1,51 @@
+# ── Secrets ───────────────────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+jwt.key
+*.key
+*.pem
+*.p12
+
+# ── Runtime data ──────────────────────────────────────────────────────────────
+data/
+*.log
+/tmp/
+
+# ── Go build artifacts ────────────────────────────────────────────────────────
+artex
+artex.exe
+/artex-*
+*.test
+*.out
+vendor/
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# ── Node / frontend ───────────────────────────────────────────────────────────
+node_modules/
+web/dist/
+web/.next/
+.next/
+out/
+
+# ── CVE cache (gerado automaticamente pelo update-cves.py) ────────────────────
+skills/cve-live/cves.json
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo

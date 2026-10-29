@@ -1,0 +1,11 @@
+{
+  "database": {
+    "host": "127.0.0.1",
+    "port": 5432,
+    "user": "artex",
+    "password": "artex",
+    "dbname": "artex",
+    "sslmode": "disable"
+  },
+  "skill_dir": "/mnt/c/Users/error/Desktop/ARTEX-main/ARTEX-main/skills"
+}
